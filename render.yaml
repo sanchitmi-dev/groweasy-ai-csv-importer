@@ -3,7 +3,7 @@ services:
     name: groweasy-ai-csv-importer
     runtime: node
     plan: free
-    buildCommand: pnpm install --frozen-lockfile && pnpm run build
+    buildCommand: pnpm install --frozen-lockfile --config.dangerouslyAllowAllBuilds=true && pnpm run build
     startCommand: pnpm start
     healthCheckPath: /api/health
     envVars:
