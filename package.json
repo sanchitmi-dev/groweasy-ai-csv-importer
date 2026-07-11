@@ -2,6 +2,7 @@
   "name": "groweasy-ai-csv-importer",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "pnpm@11.7.0",
   "description": "AI-powered CSV importer for mapping arbitrary lead exports into GrowEasy CRM format.",
   "scripts": {
     "dev": "concurrently \"npm run dev:api\" \"npm run dev:web\"",
