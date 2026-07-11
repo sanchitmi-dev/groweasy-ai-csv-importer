@@ -30,7 +30,7 @@ cp .env.example .env.local
 npm run dev
 ```
 
-Open `http://localhost:3000`.
+Live app: https://groweasy-ai-csv-importer-xc5h.onrender.com
 
 The app works without `OPENAI_API_KEY` by using a deterministic fallback extractor. Add an OpenAI key to enable AI batch extraction:
 

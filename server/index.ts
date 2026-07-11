@@ -40,7 +40,7 @@ app.post("/api/import", upload.single("file"), async (req, res) => {
 
 async function start() {
   if (dev) {
-    app.listen(port, () => console.log(`API ready on http://localhost:${port}`));
+    app.listen(port, () => console.log(`API ready on port ${port}`));
     return;
   }
 
@@ -48,7 +48,7 @@ async function start() {
   const handler = nextApp.getRequestHandler();
   await nextApp.prepare();
   app.all("*", (req, res) => handler(req, res));
-  app.listen(port, () => console.log(`App ready on http://localhost:${port}`));
+  app.listen(port, () => console.log(`App ready on port ${port}`));
 }
 
 start().catch((error) => {
