@@ -1,0 +1,4 @@
+Customer Name,Primary Email,Phone,Company,City,State,Country,Owner,Remarks,Lead Source,Created
+John Doe,"john.doe@example.com, john.alt@example.com",+91 9876543210,GrowEasy,Mumbai,Maharashtra,India,test@gmail.com,"Client is asking to reschedule demo for meridian tower",meridian_tower,2026-05-13 14:20:48
+Sarah Johnson,sarah.johnson@example.com,+91 9876543211,Tech Solutions,Bangalore,Karnataka,India,test@gmail.com,"Person was busy, will try again next week",leads_on_demand,2026-05-13 14:25:30
+Invalid Person,,,,Delhi,Delhi,India,test@gmail.com,"No contact available",,2026-05-13 14:30:15
